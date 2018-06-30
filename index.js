@@ -1,9 +1,9 @@
-module.exports = (sails) => {
+module.exports = function(sails) {
   const say     = require('./lib/say.js'),
         install = require('./lib/install.js'),
         notify  = require('./lib/notify.js');
 
-  gladys.on('ready', () => {
+  gladys.on('ready', function() {
     init().catch(sails.log.warn);
   });
 
