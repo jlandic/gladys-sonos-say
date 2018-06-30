@@ -1,0 +1,30 @@
+{
+  "name": "gladys-sonos-say",
+  "version": "1.0.0",
+  "description": "Make Gladys speak through your node-sonos-http-api server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlandic/gladys-sonos-say.git"
+  },
+  "keywords": [
+    "gladys",
+    "sonos",
+    "tts"
+  ],
+  "author": "Jonathan Landicheff",
+  "license": "CC-BY-NC-SA-3.0",
+  "bugs": {
+    "url": "https://github.com/jlandic/gladys-sonos-say/issues"
+  },
+  "homepage": "https://github.com/jlandic/gladys-sonos-say#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
