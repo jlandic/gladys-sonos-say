@@ -13,6 +13,8 @@ Ideally, you might want to install it on your RaspberryPi, alongside your Gladys
 ## Configuration
 
 * The module requires the Parameter `SONOS_SAY_API_URL` to be set to the URL your `node-sonos-http-api` server is at. Once set, do not forget to restart Gladys.
+* The module also requires the parameter `SONOS_SAY_ROOM` to be set to the room set in your Sonos configuration. Notifications are only supported for a single device as of now.
+* Finally, you need to add at least one parameter `SONOS_SAY_VOICE_<language_code>` to match languages to voices or language code, according to the TTS services you use in `node-sonos-http-api` (ex: for AWS Polly, if you want the voice `Emma` to be used for English notifications, add the parameter `SONOS_SAY_VOICE_EN` with the value `Emma`)
 
 ## Usage
 
